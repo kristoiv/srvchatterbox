@@ -30,6 +30,8 @@ $ echo "Hello world\!" | python3 client.py
 ```
 
 ### Digitalocean GPU droplet (expects DO AI/ML Ready image) setup and use:
+![image](screenshot.png)
+
 ```bash
 # Console 1 - Optionally prepare digitalocean droplet with the petunia-image:v0, then serve request from the servers localhost:5000
 $ export DOIP=192....
@@ -47,7 +49,7 @@ $ make forward-port
 $ export DOIP=192....
 $ make speak
 Prompt:
-Hello world!
-^D
+A squirrel-cage rotor is the rotating part of the common squirrel-cage induction motor. It consists of a cylinder of steel laminations, with aluminum or copper conductors cast in its surface. In operation, the non-rotating stator winding is connected to an alternating current power source; the alternating current in the stator produces a rotating magnetic field. The rotor winding has current induced in it by the stator field, as happens in a transformer, except that the current in the rotor is varying at the stator field rotation rate minus the physical rotation rate. The interaction of the magnetic fields in the stator and the currents in the rotor produce a torque on the rotor.
+^D (Ctrl-D)
 $ echo "Hello world\!" | make speak
 ```
